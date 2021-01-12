@@ -115,39 +115,39 @@
  * @default ロード：加载
  *
  * @param gameEndCommand
- * @desc ゲーム終了コマンド名（未入力でコマンド削除）
- * 初期値: ゲーム終了
- * @default ゲーム終了
+ * @desc ゲーム終了コマンド名（未入力でコマンド削除）：游戏结束命令名(未输入命令删除)
+ * 初期値: ゲーム終了：游戏结束
+ * @default ゲーム終了：游戏结束
  *
  * @param yesCommand
- * @desc 肯定コマンド名
- * 初期値: はい
- * @default はい
+ * @desc 肯定コマンド名：肯定命令名
+ * 初期値: はい：是
+ * @default はい：是
  *
  * @param noCommand
- * @desc 否定コマンド名
- * 初期値: いいえ
- * @default いいえ
+ * @desc 否定コマンド名：否定命令名
+ * 初期値: いいえ：否
+ * @default いいえ：否
  *
  * @param moveParam
- * @desc 移動力パラメータの名前
- * 初期値: 移動力
- * @default 移動力
+ * @desc 移動力パラメータの名前：移动力参数的名称
+ * 初期値: 移動力：移动力
+ * @default 移動力：移动力
  *
  * @param moveHelp
- * @desc 移動場所選択ヘルプ
- * 初期値: 移動する場所を決定してください
- * @default 移動する場所を決定してください
+ * @desc 移動場所選択ヘルプ：移动地点选择帮助
+ * 初期値: 移動する場所を決定してください：请决定要去哪里。
+ * @default 移動する場所を決定してください：请决定要去哪里。
  *
  * @param waitingHelp
- * @desc 待機方向選択ヘルプ
- * 初期値: 待機中の向きを決定してください
- * @default 待機中の向きを決定してください
+ * @desc 待機方向選択ヘルプ：待机方向选择帮助
+ * 初期値: 待機中の向きを決定してください：请决定等待中的方向
+ * @default 待機中の向きを決定してください：请决定等待中的方向
  *
  * @param turnEndHelp
- * @desc ターン終了確認ヘルプ
- * 初期値: 味方のターンを終了してよろしいですか？
- * @default 味方のターンを終了してよろしいですか？
+ * @desc ターン終了確認ヘルプ：回合结束确认帮助
+ * 初期値: 味方のターンを終了してよろしいですか？：可以结束己方的回合吗?
+ * @default 味方のターンを終了してよろしいですか？：可以结束己方的回合吗?
  *
  * @param actionRangeHelp
  * @desc 行動実行場所選択ヘルプ
@@ -155,82 +155,82 @@
  * @default 行動を実行する場所を決定してください
  *
  * @param actionEffectHelp
- * @desc 行動最終確認ヘルプ
- * 初期値: この行動でよろしいですか？
- * @default この行動でよろしいですか？
+ * @desc 行動最終確認ヘルプ：行动执行场所选择帮助
+ * 初期値: この行動でよろしいですか？：这个行动可以吗?
+ * @default この行動でよろしいですか？：这个行动可以吗?
  *
  * @param colorAreaMove
- * @desc 移動可能範囲のタイルトナー設定
+ * @desc 移動可能範囲のタイルトナー設定：可移动范围的定位设定
  * 初期値: 0 64 255 128
  * @default 0 64 255 128
  *
  * @param colorAreaWaiting
- * @desc 待機範囲のタイルトナー設定
+ * @desc 待機範囲のタイルトナー設定：待机范围的设定
  * 初期値: 255 32 255 128
  * @default 255 32 255 128
  *
  * @param colorAreaRange
- * @desc 射程範囲のタイルトナー設定
+ * @desc 射程範囲のタイルトナー設定：射程范围的设定
  * 初期値: 255 32 32 128
  * @default 255 32 32 128
  *
  * @param colorAreaEffect
- * @desc 効果範囲のタイルトナー設定
+ * @desc 効果範囲のタイルトナー設定：效果范围的设定
  * 初期値: 255 255 32 128
  * @default 255 255 32 128
  *
  * @param srpgCommandX
- * @desc コマンドウィンドウの表示位置（Ｘ座標）
+ * @desc コマンドウィンドウの表示位置（Ｘ座標）：命令窗口的显示位置(X坐标)
  * 初期値: 0
  * @default 0
  *
  * @param srpgCommandY
- * @desc コマンドウィンドウの表示位置（Ｙ座標）
+ * @desc コマンドウィンドウの表示位置（Ｙ座標）：命令窗口的显示位置(Y坐标)
  * 初期値: 0
  * @default 0
  *
  * @param srpgCommandLineHeight
- * @desc コマンドウィンドウの１行の高さ
+ * @desc コマンドウィンドウの１行の高さ：命令窗口的一行的高度
  * 初期値: 36
  * @default 36
  *
  * @param srpgStatusBackground
- * @desc ステータスウィンドウの背景タイプ
- * 初期値: 1（ 0 = ウィンドウ / 1 = 暗くする / 2 = 透明）
+ * @desc ステータスウィンドウの背景タイプ：状态窗口的背景类型
+ * 初期値: 1（ 0 = ウィンドウ / 1 = 暗くする / 2 = 透明）：(0 =窗口/ 1 =调暗/ 2 =透明)
  * @default 1
  *
  * @param srpgStatusNameWidth
- * @desc ステータスウィンドウのユニット名の幅
+ * @desc ステータスウィンドウのユニット名の幅：状态窗口的单元名宽度
  * 初期値: 144
  * @default 144
  *
  * @param srpgStatusHpWidth
- * @desc ステータスウィンドウのＨＰゲージの幅（ＭＰでも利用）
+ * @desc ステータスウィンドウのＨＰゲージの幅（ＭＰでも利用）：状态窗口的HP量规的宽度(MP也利用)
  * 初期値: 186
  * @default 186
  *
  * @param srpgStatusFaceMirror
- * @desc ステータスウィンドウの顔グラフィック左右反転設定
- * 初期値: left（ left = 左側を反転 / right = 右側を反転）
+ * @desc ステータスウィンドウの顔グラフィック左右反転設定：状态窗口的面部图形左右反转设定
+ * 初期値: left（ left = 左側を反転 / right = 右側を反転）：(left =反转左侧/ right =反转右侧)
  * @default left
  *
  * @param srpgUnitListWidth
- * @desc ユニットリストウィンドウの幅
+ * @desc ユニットリストウィンドウの幅：单元列表窗口的宽度
  * 初期値: 240
  * @default 240
  *
  * @param srpgUnitListRows
- * @desc ユニットリストウィンドウの表示行数
+ * @desc ユニットリストウィンドウの表示行数：单元列表窗口的显示行数
  * 初期値: 7
  * @default 7
  *
  * @param srpgInfoSize
- * @desc マップ情報ウィンドウの大きさ
+ * @desc マップ情報ウィンドウの大きさ：地图信息窗口的大小
  * 初期値: 480*480
  * @default 480*480
  *
  * @param srpgStatusArrowImage
- * @desc ステータスウィンドウの矢印画像のファイル名
+ * @desc ステータスウィンドウの矢印画像のファイル名：状态窗口的箭头图像的文件名
  * 初期値: SrpgStatusArrow
  * @default SrpgStatusArrow
  * @require 1
@@ -238,7 +238,7 @@
  * @type file
  *
  * @param srpgCursorImage
- * @desc SRPGカーソルのファイル名
+ * @desc SRPGカーソルのファイル名：SRPG光标文件名
  * 初期値: !$SrpgCursor
  * @default !$SrpgCursor
  * @require 1
@@ -252,22 +252,26 @@
  * @noteData enemies
  *
  * @help
- * TMPlugin - シミュレーションRPG ver0.1.1a
+ * TMPlugin - シミュレーションRPG ver0.1.1a：模拟RPG ver0.1.1a
  * 
  * 使用方法:
  * 
- *   下記URLを参照してください。
+ *   下記URLを参照してください。：请参照下面的URL。
  *   http://hikimoki.sakura.ne.jp/plugin/plugin_srpg.html
- *   このヘルプにはメモ欄タグやプラグインコマンドの簡単な説明のみを
- *   記載しています。
+ *   このヘルプにはメモ欄タグやプラグインコマンドの簡単な説明のみを：在这个帮助中，你只需要简单的注释标签和插件命令
+ *   記載しています。：记载着。
  * 
  *   このプラグインは RPGツクールMV Version 1.3.5 で動作確認をしています。
- * 
+ *
  *   このプラグインはMITライセンスのもとに配布しています、商用利用、
  *   改造、再配布など、自由にお使いいただけます。
  *
- * 
- * メモ欄タグ（イベント）:
+     *这个插件正在RPG游戏MV Version 1.3.5中进行动作确认。
+    *
+      这个插件是在麻省理工学院的许可下发布的。
+    *改造，再分发等，可以自由使用。
+ *
+ * メモ欄タグ（イベント）: 备忘录标签(事件):
  * 
  *   <srpgManager>
  *   このタグのついたイベントをSRPG管理イベントとして利用します。
@@ -280,6 +284,17 @@
  *   このタグのついたイベントを敵ユニットとして利用します。
  *   数値は敵キャラのデータベース上の番号です。
  *
+ *   srpgmanager & gt;
+*使用带有这个标签的事件作为SRPG管理事件。
+*
+* srpgactor: & gt;
+*把附有这个标签的事件作为伙伴单位利用。
+*数值是派对内的排列顺序(0为首)。
+*
+* srpgenemy: 3 & gt;
+*作为敌人单位利用附有这个标签的事件。
+*数值是敌人角色的数据库上的号码。
+*
  *   <neutral>
  *   このタグのついたイベントは残りユニット数のカウントから除外します。
  * 
@@ -292,7 +307,20 @@
  *   <mov:4>
  *   移動力を設定します。アクターの場合は現在の職業、装備品、ステートの値も
  *   含めた合計値が採用されます。
- * 
+ *
+ *    neutral & gt;
+*带有这个标签的事件从剩余单元数的计数中除外。
+*
+* traitor & gt;
+*这个标记的事件经常被附加行动制约“攻击己方”。
+*
+*
+*笔记栏标签(动作者，职业，武器，防具，敌人角色，状态):
+*
+* move: 4 & gt;
+设定移动能力。动作者现在的职业，装备品，状态的值
+*包含的合计值被采用。
+ *
  *   <shipMove>
  *   通常は進入不可能な水の上も移動することができるようになります。
  *
@@ -303,7 +331,17 @@
  *   索敵距離を設定します。一番近くにいる敵対ユニットとの距離が
  *   この値よりも大きい場合、移動も行動もしなくなります。
  *   タグを省略、または 0 を指定するとこの機能はオフになります。
- * 
+ *
+ * shipmove & gt;
+*通常无法进入的水面上也能移动。
+*
+* floatmove & gt;
+*可以无视地形移动。
+*
+* search: 5 & gt;
+设定索敌距离。和最近的敌方单位的距离
+*比这个值大的情况下，移动和行动都不做了。
+*省略标签或指定0的话这个功能会关闭。
  * 
  * メモ欄タグ（アイテム、スキル）:
  * 
@@ -319,6 +357,21 @@
  *   <effect:rect 3>
  *   スキルの効果範囲を設定します。範囲タイプと大きさを半角スペースで区切って
  *   指定してください。指定する値は射程距離と同じです。
+ *
+ * 笔记栏标签(项目、技能):
+*
+* range: diamond 2 & gt;
+设定技能的射程距离。用半角空间来区分射程类型和射程距离
+*请指定。射程类型请从下述中选择。
+* diamond =菱形
+* rect =四角形
+line =直线(上下左右)
+*另外，&lt;range:diamond 2 rect 0&gt;像这样继续下去，然后再把另一种类型和距离
+*指定的话，可以在范围的中心钻孔。
+*
+* effect: rect 3 & gt;
+设定技能的效果范围。用半角空间来划分范围类型和大小
+*请指定。指定的值和射程距离相同。
  * 
  * 
  * メモ欄タグ（敵キャラ）:
@@ -340,6 +393,25 @@
  *   敵キャラの職業を設定します、この値はステータス表示のためのダミーです、
  *   数値によって能力値が変化するようなことはありません。
  *
+ * 笔记栏标签(敌人角色):
+*
+* facename: monster & gt;
+*设定作为敌人角色的脸部图形利用的图像文件名。
+*
+* faceindex: & gt;
+设定敌人角色的脸部图形的索引。
+*索引是决定使用图像的哪个部分的编号。
+0 1 2 3
+* 4 5 6 7
+*
+* level: 10 & gt;
+设定敌人角色的等级，这个值是为了状态显示的假人，
+能力值不会根据数值变化。
+*
+* class: 3 & gt;
+设定敌人角色的职业，这个值是为了状态显示的伪数值，
+能力值不会根据数值变化。
+ *
  *   <nickname:乱暴者>
  *   敵キャラの二つ名を設定します。
  *
@@ -354,6 +426,21 @@
  *
  *   <attackAnimation:6>
  *   敵キャラの通常攻撃のアニメーション番号を設定します。
+ *
+ * nickname:狂暴者&gt;
+设定敌人角色的两名。
+*
+* profile:最讨厌人类的奥克族战士&gt;
+设定敌人角色的简介。
+*
+* equips:2 0 0 0&gt;
+设定敌人角色的装备品，这个值是为了状态显示的伪，
+能力值不会根据数值变化。
+*从装备槽上开始按顺序用半角空间隔开装备品的编号。
+*请指定。
+*
+* attackanimation: 6 & gt;
+设定敌人角色的通常攻击的动画号码。
  * 
  * 
  * プラグインコマンド:
@@ -361,6 +448,12 @@
  *   reserveSrpg
  *   SRPG機能を有効化する予約をします、このコマンドを実行したあとにイベント
  *   コマンド『場所移動』でマップが切り替わるとSRPG機能が有効になります。
+ *
+ * 插件命令:
+*
+* reservesrpg
+预约启用SRPG功能，在执行此命令后进行活动。
+*命令“地点移动”切换地图的话SRPG功能变得有效。
  *
  * 
  * スクリプトコマンド:
@@ -376,6 +469,20 @@
  * 
  *   this.srpgLastUnit()
  *   直前に行動したイベント番号を返します。
+ *
+ * 脚本命令:
+*
+* this.issrpgturnstart ()
+返回是否站着转弯开始标志。
+*
+* this.issrpgactorturn ()
+*回复是否己方回合。
+*
+* this.srpgnextunit ()
+*返回下次行动的事件号。
+*
+* this.srpglastunit ()
+*返回之前行动的事件号。
  * 
  *   this.srpgBattler(0)
  *   ユニットイベントのバトラーオブジェクトを返します。
@@ -392,6 +499,22 @@
  * 
  *   this.srpgAddUnit(10, 1)
  *   イベント番号 10 番を敵キャラ 1 番のエネミーユニットとして設定します。
+ *
+ * this.srpgbattler ()
+返回单元事件的butler对象。
+*请在括号内指定想要取得的单元事件的事件号。
+指定* 0的情况下执行这个命令的事件成为对象。
+*没有指定的情况下是下一个行动的事件，或者是在之前行动了。
+*以活动为对象。
+*
+* this.srpgremoveunit ()
+*强制排除单元事件。
+与无法战斗的情况相同的待遇，自动开关A
+*开启，活动内容也被执行。
+*对象的指定方法和this.srpgBattler相同。
+*
+* this.srpgAddUnit(10,1)
+*将活动号码10号设定为敌人角色1号的战斗单元。
 */
 
 var Imported = Imported || {};
@@ -459,24 +582,24 @@ Imported.TMSrpg = true;
     this._srpgDeadUnitIds = [];
   };
 
-  // ダミーウィンドウを返す
+  // ダミーウィンドウを返す：返回伪窗口
   Game_Temp.prototype.srpgDummyWindow = function() {
     if (this._srpgDummyWindow == null) this._srpgDummyWindow = new Window_Base(0, 0, 0, 0);
     return this._srpgDummyWindow;
   };
   
-  // SRPGコマンドウィンドウの復元予約
+  // SRPGコマンドウィンドウの復元予約：SRPG命令窗口的复原预约
   Game_Temp.prototype.reserveSrpgCommand = function(index, event) {
     this._reserveSrpgCommandIndex = index;
     this._reserveSrpgCommandEvent = event;
   };
 
-  // SRPGコマンドウィンドウの復元予約をクリア
+  // SRPGコマンドウィンドウの復元予約をクリア：清除SRPG命令窗口的恢复预约
   Game_Temp.prototype.clearSrpgCommand = function() {
     this.reserveSrpgCommand(-1, null);
   };
 
-  // SRPGコマンドウィンドウの復元予約が有効かどうかを返す
+  // SRPGコマンドウィンドウの復元予約が有効かどうかを返す：返回SRPG命令窗口的恢复预约是否有效
   Game_Temp.prototype.isSrpgCommandReserved = function() {
     return this._reserveSrpgCommandIndex >= 0;
   };
@@ -489,7 +612,7 @@ Imported.TMSrpg = true;
     return this._reserveSrpgCommandEvent;
   };
   
-  // SRPGのターン開始フラグをセット
+  // SRPGのターン開始フラグをセット：设定SRPG的回合开始标志
   Game_Temp.prototype.setSrpgTurnStart = function(srpgTurnStart) {
     this._srpgTurnStart = srpgTurnStart;
   };
@@ -537,13 +660,13 @@ Imported.TMSrpg = true;
   var _Game_Action_subject = Game_Action.prototype.subject;
   Game_Action.prototype.subject = function() {
     if (this._subjectActorId < 0) {
-      // トループを使わずに行動主体としてSRPGバトラーを返す
+      // トループを使わずに行動主体としてSRPGバトラーを返す：不使用爆炸物作为行动主体归还SRPG指挥棒
       return $gameMap.event(-this._subjectActorId).srpgBattler();
     }
     return _Game_Action_subject.call(this);
   };
 
-  // 結果予測用のダメージ計算
+  // 結果予測用のダメージ計算：用于结果预测的损伤计算
   Game_Action.prototype.makeTestDamageValue = function(target) {
     var item = this.item();
     var baseValue = this.evalDamageFormula(target);
@@ -555,7 +678,7 @@ Imported.TMSrpg = true;
     return Math.round(value);
   };
 
-  // ターゲットに対して有効な効果を返す
+  // ターゲットに対して有効な効果を返す：对目标返回有效效果
   Game_Action.prototype.itemValidEffect = function(target) {
     var effects = this.item().effects;
     for (var i = 0; i < effects.length; i++) {
@@ -577,7 +700,7 @@ Imported.TMSrpg = true;
     return _Game_BattlerBase_isOccasionOk.call(this, item);
   };
 
-  // SRPGパラメータを返す
+  // SRPGパラメータを返す：返回SRPG参数
   Game_BattlerBase.prototype.srpgParam = function(tag) {
     var result = this.traitObjects().reduce(function(r, object) {
       return r + Number(object.meta[tag] || 0);
@@ -585,7 +708,7 @@ Imported.TMSrpg = true;
     return Math.max(result, 0);
   };
 
-  // SRPGフラグを返す
+  // SRPGフラグを返す：返回SRPG标志
   Game_BattlerBase.prototype.srpgFlag = function(tag) {
     return this.traitObjects().some(function(object) {
       return object.meta[tag];
@@ -685,13 +808,13 @@ Imported.TMSrpg = true;
   // Game_Map
   //
 
-  // 範囲表示カラーを初期化
+  // 範囲表示カラーを初期化：初始化范围显示颜色
   Game_Map.prototype.initColorArea = function() {
     if (!Imported.SAN_TileToner) return;
     this.clearTileTones();
   };
 
-  // 範囲表示カラーをセット
+  // 範囲表示カラーをセット：设置范围显示颜色
   Game_Map.prototype.setColorArea = function(colorParam) {
     if (!Imported.SAN_TileToner) return;
     this.clearTileTones();
@@ -704,71 +827,71 @@ Imported.TMSrpg = true;
     }
   };
 
-  // SRPG機能が有効になっているかどうかを返す
+  // SRPG機能が有効になっているかどうかを返す：返回SRPG功能是否有效
   Game_Map.prototype.isSrpg = function() {
     return this._srpgActive;
   };
   
-  // SRPG機能を有効にします
+  // SRPG機能を有効にします：启用SRPG功能。
   Game_Map.prototype.srpgActivate = function() {
     this._srpgActive = true;
     this._srpgActorTurn = false;
     this.changeSrpgTurnCount(0);
-    this.setupTilePassableTable();        // 地形通行判定テーブルのセットアップ
-    this.setupSrpgManagerEvent();         // SRPG管理イベントのセットアップ
-    this.setupSrpgUnits();                // SRPGユニットのセットアップ
+    this.setupTilePassableTable();        // 地形通行判定テーブルのセットアップ：地形通行判定表的设置
+    this.setupSrpgManagerEvent();         // SRPG管理イベントのセットアップ：SRPG管理事件的设置
+    this.setupSrpgUnits();                // SRPGユニットのセットアップ：SRPG单元的设置
     this.onSrpgTurnStart();
   };
   
-  // SRPG機能を無効にします
+  // SRPG機能を無効にします：禁用SRPG功能。
   Game_Map.prototype.srpgDeactivate = function() {
     this._srpgActive = false;
     $gameTemp.clearSrpgCommand();
   };
   
-  // SRPGの開始を予約します
+  // SRPGの開始を予約します：预约SRPG的开始。
   Game_Map.prototype.reserveSrpgStart = function() {
     this._needsSrpgStart = true;
   };
   
-  // ターン開始
+  // ターン開始：开始转弯
   Game_Map.prototype.onSrpgTurnStart = function() {
     this._srpgActorTurn = !this._srpgActorTurn;
     if (this._srpgActorTurn) {
-      this.changeSrpgTurnCount(this._srpgTurnCount + 1);  // ターン数のカウント
+      this.changeSrpgTurnCount(this._srpgTurnCount + 1);  // ターン数のカウント：回合数的计数
     }
     this.srpgActiveTurnUnits(true).forEach(function(event) {
       event.onSrpgTurnStart();
     });
-    $gameTemp.setSrpgTurnStart(true);     // ターン開始フラグを立てる
-    this.startSrpgManagerEvent();         // SRPG管理イベントを起動する
+    $gameTemp.setSrpgTurnStart(true);     // ターン開始フラグを立てる：树立开始掉头的标志
+    this.startSrpgManagerEvent();         // SRPG管理イベントを起動する：启动SRPG管理事件
   };
 
-  // ターン数の変更
+  // ターン数の変更：回合数的变更
   Game_Map.prototype.changeSrpgTurnCount = function(n) {
     this._srpgTurnCount = n;
     $gameVariables.setValue(vnSrpgTurnCount, n);
   };
 
-  // 味方ターンかどうかを返す
+  // 味方ターンかどうかを返す：返回己方是否掉头
   Game_Map.prototype.isSrpgActorTurn = function() {
     return this._srpgActorTurn;
   };
   
-  // マップのセットアップ
+  // マップのセットアップ：设置地图
   var _Game_Map_setup = Game_Map.prototype.setup;
   Game_Map.prototype.setup = function(mapId) {
     _Game_Map_setup.call(this, mapId);
     this.initColorArea();
     if (this._needsSrpgStart) {
-      this.srpgActivate();                // SRPG機能を有効化
+      this.srpgActivate();                // SRPG機能を有効化：使SRPG功能有效化
       this._needsSrpgStart = false;
     } else if (this.isSrpg()) {
-      this.srpgDeactivate();              // SRPG機能を無効化
+      this.srpgDeactivate();              // SRPG機能を無効化：使SRPG功能无效化
     }
   };
   
-  // 地形通行判定テーブルをセットアップ
+  // 地形通行判定テーブルをセットアップ：设置地形通行判定表
   Game_Map.prototype.setupTilePassableTable = function() {
     this._normalTilePassableTable = [];
     this._floatTilePassableTable  = [];
@@ -806,7 +929,7 @@ Imported.TMSrpg = true;
     }
   };
 
-  // SRPG管理イベントのセットアップ
+  // SRPG管理イベントのセットアップ：SRPG管理事件的设置
   Game_Map.prototype.setupSrpgManagerEvent = function() {
     var events = this.events();
     for (var i = 0; i < events.length; i++) {
@@ -821,17 +944,17 @@ Imported.TMSrpg = true;
     }
   };
   
-  // SRPG管理イベントを返す
+  // SRPG管理イベントを返す：返回SRPG管理事件
   Game_Map.prototype.srpgManagerEvent = function() {
     return this.event(this._srpgManagerEventId);
   };
   
-  // SRPG管理イベントを起動する
+  // SRPG管理イベントを起動する：启动SRPG管理事件
   Game_Map.prototype.startSrpgManagerEvent = function() {
     this.srpgManagerEvent().start();
   };
   
-  // SRPGユニットのセットアップ
+  // SRPGユニットのセットアップ：SRPG单元的设置
   Game_Map.prototype.setupSrpgUnits = function() {
     this._srpgEnemyIds = {};
     this.events().forEach(function(event) {
@@ -856,7 +979,7 @@ Imported.TMSrpg = true;
     return this._srpgEnemyIds[id]++;
   };
 
-  // 残っているアクターユニットの数を更新
+  // 残っているアクターユニットの数を更新：更新剩下的动作单元的数量
   Game_Map.prototype.updateActorUnitNums = function() {
     var events = this.srpgActorUnits(true).filter(function(event) {
       return !event.event().meta.neutral;
@@ -864,7 +987,7 @@ Imported.TMSrpg = true;
     $gameVariables.setValue(vnActorUnitNums, events.length);
   };
   
-  // 残っているエネミーユニットの数を更新
+  // 残っているエネミーユニットの数を更新：更新剩下的敌人单元的数量
   Game_Map.prototype.updateEnemyUnitNums = function() {
     var events = this.srpgEnemyUnits(true).filter(function(event) {
       return !event.event().meta.neutral;
@@ -872,44 +995,44 @@ Imported.TMSrpg = true;
     $gameVariables.setValue(vnEnemyUnitNums, events.length);
   };
   
-  // SRPGユニットを返す
+  // SRPGユニットを返す：返回SRPG单元
   Game_Map.prototype.srpgUnits = function(alive) {
     return this.events().filter(function(event) {
       return event.isSrpgUnit(alive);
     });
   };
   
-  // SRPGアクターユニットを返す
+  // SRPGアクターユニットを返す：返回SRPG操作单元
   Game_Map.prototype.srpgActorUnits = function(alive) {
     return this.events().filter(function(event) {
       return event.isSrpgActorUnit(alive);
     });
   };
   
-  // SRPGエネミーユニットを返す
+  // SRPGエネミーユニットを返す：返回SRPG系统单元
   Game_Map.prototype.srpgEnemyUnits = function(alive) {
     return this.events().filter(function(event) {
       return event.isSrpgEnemyUnit(alive);
     });
   };
 
-  // ターンがアクティブな勢力に属するユニットを返す
+  // ターンがアクティブな勢力に属するユニットを返す：返回属于活动势力的单位。
   Game_Map.prototype.srpgActiveTurnUnits = function(alive) {
     return this._srpgActorTurn ? this.srpgActorUnits(alive) :
            this.srpgEnemyUnits(alive);
   };
   
-  // 指定ユニットと違う勢力に属するユニットを返す
+  // 指定ユニットと違う勢力に属するユニットを返す：返回属于指定单元和不同势力的单元
   Game_Map.prototype.srpgOpponentUnits = function(unit, alive) {
     return unit.isSrpgActorUnit() ? this.srpgEnemyUnits(alive) : this.srpgActorUnits(alive);
   };
   
-  // 指定ユニットと同じ勢力に属するユニットを返す
+  // 指定ユニットと同じ勢力に属するユニットを返す：返回与指定单元属于同一势力的单元
   Game_Map.prototype.srpgFriendUnits = function(unit, alive) {
     return unit.isSrpgActorUnit() ? this.srpgActorUnits(alive) : this.srpgEnemyUnits(alive);
   };
   
-  // 指定座標のSRPGユニットを返す
+  // 指定座標のSRPGユニットを返す：返回指定坐标的SRPG单元
   Game_Map.prototype.srpgUnitXy = function(x, y, alive) {
     var events = this.srpgUnits(alive);
     for (var i = 0; i < events.length; i++) {
@@ -919,7 +1042,7 @@ Imported.TMSrpg = true;
     return null;
   };
   
-  // 範囲内のSRPGユニットを返す
+  // 範囲内のSRPGユニットを返す：返回范围内的SRPG单元
   Game_Map.prototype.srpgUnitsArea = function(area, alive) {
     area = area || this._srpgArea;
     var result = [];
@@ -932,54 +1055,54 @@ Imported.TMSrpg = true;
     return result;
   };
 
-  // 指定した行動が有効なユニットを返す
+  // 指定した行動が有効なユニットを返す：返回指定的行为有效的单元。
   Game_Map.prototype.srpgActionEffectiveUnits = function(unit, action) {
     if (!action.item()) return [];
     var confusionLevel = unit.srpgBattler().confusionLevel();
     var flag = ((confusionLevel === 2 && Math.randomInt(2) === 0) ||
                confusionLevel === 3) ^ unit.isTraitor();
-    // 敵対象スキルかつ勢力反転なし、または味方対象スキルかつ勢力反転あり
+    // 敵対象スキルかつ勢力反転なし、または味方対象スキルかつ勢力反転あり：敌对象技能且无势力反转，或是己方对象技能且有势力反转
     if (action.isForOpponent() ^ flag) {
-      // 魅了されていない敵対ユニットを抽出
+      // 魅了されていない敵対ユニットを抽出：抽出没有被吸引的敌对单位
       var result = this.srpgOpponentUnits(unit, true).filter(function(event) {
         return event.srpgBattler().confusionLevel() < 3;
       });
-      // 裏切り者の味方ユニットを追加
+      // 裏切り者の味方ユニットを追加：追加叛徒的伙伴单位
       result = result.concat(this.srpgFriendUnits(unit, true).filter(function(event) {
         return event.isTraitor();
       }));
       return result;
     }
-    // 敵対象スキルかつ勢力反転あり
+    // 敵対象スキルかつ勢力反転あり：敌对象技能且有势力反转
     if (flag) {
-      // 自分以外かつ、勢力反転していない味方ユニットを返す
+      // 自分以外かつ、勢力反転していない味方ユニットを返す：返回自己以外且势力没有反转的伙伴单位
       return this.srpgFriendUnits(unit, true).filter(function(event) {
         return event.eventId() !== unit.eventId() &&
                (!event.isTraitor() ^ event.srpgBattler().confusionLevel() === 3);
       });
     }
-    // 味方対象スキルかつ勢力反転なし
-    // 裏切り者以外の味方ユニットを返す
+    // 味方対象スキルかつ勢力反転なし：己方对象技能且无势力反转
+    // 裏切り者以外の味方ユニットを返す：返回叛徒以外的伙伴单位
     return this.srpgFriendUnits(unit, true).filter(function(event) {
       return !event.isTraitor();
     });
   };
 
-  // 移動中のSRPGユニットがいるかどうかを返す
+  // 移動中のSRPGユニットがいるかどうかを返す：返回是否存在移动中的SRPG单元
   Game_Map.prototype.isSrpgUnitMoving = function() {
     return this.srpgUnits().some(function(event) {
       return event.isMoveRouteForcing();
     });
   };
   
-  // アニメーション表示中のSRPGユニットがいるかどうかを返す
+  // アニメーション表示中のSRPGユニットがいるかどうかを返す：返回动画显示中的SRPG单元是否存在
   Game_Map.prototype.isSrpgUnitAnimationPlaying = function() {
     return this.srpgUnits().some(function(event) {
       return event.isAnimationPlaying();
     });
   };
   
-  // イベントを指定座標からの距離で並べ替える
+  // イベントを指定座標からの距離で並べ替える：以距离指定坐标的距离重新排列事件
   Game_Map.prototype.sortEventsDistance = function(events, x, y) {
     events.sort(function(a, b) {
       var d1 = Math.abs(x - a.x) + Math.abs(y - a.y);
@@ -989,7 +1112,7 @@ Imported.TMSrpg = true;
     return events;
   };
   
-  // イベントを敏捷性で並べ替える
+  // イベントを敏捷性で並べ替える：以敏捷性来重新排列活动
   Game_Map.prototype.sortEventsAgi = function(events) {
     events.sort(function(a, b) {
       return b.srpgBattler().agi - a.srpgBattler().agi;
@@ -997,16 +1120,16 @@ Imported.TMSrpg = true;
     return events;
   };
   
-  // 移動可能範囲を表示する
+  // 移動可能範囲を表示する：显示可移动范围
   Game_Map.prototype.showMovableArea = function(unit) {
     this._srpgArea = {};
-    this.setupPassableTable(unit);        // 通行判定テーブルをセットアップ
-    this.checkMovableArea(unit);          // 移動可能範囲のルートチェック
-    this.deleteAreaOverlapEvent();        // すでにイベントがある座標を除外
+    this.setupPassableTable(unit);        // 通行判定テーブルをセットアップ：设置通行判定表
+    this.checkMovableArea(unit);          // 移動可能範囲のルートチェック：检查可移动范围的路线
+    this.deleteAreaOverlapEvent();        // すでにイベントがある座標を除外：排除已经存在事件的坐标
     this.setColorArea(colorAreaMove);
   };
 
-  // 通行判定テーブルをセットアップ
+  // 通行判定テーブルをセットアップ：设置通行判定表
   Game_Map.prototype.setupPassableTable = function(unit) {
     if (unit.isFloat()) {
       this._passableTable = JSON.parse(JSON.stringify(this._floatTilePassableTable));
@@ -1026,7 +1149,7 @@ Imported.TMSrpg = true;
     }
   };
   
-  // 移動可能範囲のルートチェック
+  // 移動可能範囲のルートチェック：检查可移动范围的路线
   Game_Map.prototype.checkMovableArea = function(unit) {
     var mov = unit.mov();
     if (mov === 0) return;
@@ -1055,37 +1178,37 @@ Imported.TMSrpg = true;
     }
   };
 
-  // 待機範囲を表示する
+  // 待機範囲を表示する：显示待机范围
   Game_Map.prototype.showWaitingArea = function(unit) {
     this._srpgArea = this.createArea(unit.x, unit.y, ['diamond', 1, 'rect', 0]);
     this.setColorArea(colorAreaWaiting);
   };
   
-  // 射程範囲を表示する
+  // 射程範囲を表示する：显示射程范围
   Game_Map.prototype.showRangeArea = function(x, y, skill) {
     this._srpgArea = this.createRangeArea(x, y, skill);
     this.setColorArea(colorAreaRange);
   };
 
-  // 射程範囲を作成する
+  // 射程範囲を作成する：制定射程范围
   Game_Map.prototype.createRangeArea = function(x, y, skill) {
     var a = (skill.meta.range || 'diamond 1').split(' ');
     return this.createArea(x, y, a);
   };
   
-  // 効果範囲を表示する
+  // 効果範囲を表示する：显示效果范围
   Game_Map.prototype.showEffectArea = function(x, y, skill) {
     this._srpgArea = this.createEffectArea(x, y, skill);
     this.setColorArea(colorAreaEffect);
   };
 
-  // 効果範囲を作成する
+  // 効果範囲を作成する：创建效果范围
   Game_Map.prototype.createEffectArea = function(x, y, skill) {
     var a = (skill.meta.effect || 'diamond 0').split(' ');
     return this.createArea(x, y, a);
   };
 
-  // 範囲を作成する
+  // 範囲を作成する：制定范围
   Game_Map.prototype.createArea = function(x, y, param) {
     var area = {};
     if (param[0] === 'diamond') {
@@ -1133,7 +1256,7 @@ Imported.TMSrpg = true;
     return x === x2 || y === y2;
   };
 
-  // 範囲からすでにイベントがある座標を除外
+  // 範囲からすでにイベントがある座標を除外：从范围中排除已经存在事件的坐标
   Game_Map.prototype.deleteAreaOverlapEvent = function() {
     var events = this.events();
     for (var i = 0; i < events.length; i++) {
@@ -1144,22 +1267,22 @@ Imported.TMSrpg = true;
     };
   };
 
-  // 範囲が空かどうかを返す
+  // 範囲が空かどうかを返す：返回范围是否为空
   Game_Map.prototype.isSrpgAreaEmpty = function() {
     return Object.keys(this._srpgArea).length === 0;
   };
   
-  // 範囲表示を隠す
+  // 範囲表示を隠す：隐藏范围显示
   Game_Map.prototype.hideSrpgArea = function() {
     this.initColorArea();
   };
   
-  // 指定座標の範囲の値を返す
+  // 指定座標の範囲の値を返す：返回指定坐标范围的值
   Game_Map.prototype.srpgAreaXy = function(x, y) {
     return this._srpgArea['' + x + ',' + y];
   };
   
-  // 指定座標に一番近い範囲の座標を返す
+  // 指定座標に一番近い範囲の座標を返す：返回最接近指定坐标范围的坐标
   Game_Map.prototype.posInsideAreaNearXy = function(x, y) {
     var result = null;
     var minValue = 1000;
@@ -1174,12 +1297,13 @@ Imported.TMSrpg = true;
     return result;
   };
   
-  // 指定座標が範囲に含まれているかを返す
+  // 指定座標が範囲に含まれているかを返す：返回指定坐标是否包含在范围中
   Game_Map.prototype.isInsideArea = function(x, y) {
     return this.srpgAreaXy(x, y) !== undefined;
   };
 
   // 指定イベントの一番近くにあり、ユニットイベントのいない地形タグ 1 番の座標を返す
+  // 返回地形标签1号的坐标，该坐标位于指定事件的最近位置，没有单元事件。
   Game_Map.prototype.srpgBlankPosition = function(event) {
     var result = null;
     var minValue = 1000;
@@ -1200,7 +1324,7 @@ Imported.TMSrpg = true;
   // Game_CharacterBase
   //
   
-  // キャラクターがSRPGユニットかどうかを返す
+  // キャラクターがSRPGユニットかどうかを返す：返回角色是否是SRPG单元
   Game_CharacterBase.prototype.isSrpgUnit = function() {
     return false;
   };
@@ -1231,7 +1355,7 @@ Imported.TMSrpg = true;
   var _Game_Player_refresh = Game_Player.prototype.refresh;
   Game_Player.prototype.refresh = function() {
     _Game_Player_refresh.call(this);
-    if ($gameMap.isSrpg()) {  // SRPG機能が有効なら歩行グラフィックをカーソルにする
+    if ($gameMap.isSrpg()) {  // SRPG機能が有効なら歩行グラフィックをカーソルにする：如果SRPG功能有效，将步行图形作为光标
       var characterName = srpgCursorImage;
       var characterIndex = 0;
       this.setImage(characterName, characterIndex);
@@ -1261,7 +1385,7 @@ Imported.TMSrpg = true;
     return $gameMap.isSrpg() ? false : _Game_Player_canMove.call(this);
   };
 
-  // SRPG機能（カメラ）としての移動先をセットする（座標で指定）
+  // SRPG機能（カメラ）としての移動先をセットする（座標で指定）：设置作为SRPG功能(相机)的移动目的地(由坐标指定)
   Game_Player.prototype.setSrpgCameraXy = function(x, y) {
     this._x = x;
     this._y = y;
@@ -1269,7 +1393,7 @@ Imported.TMSrpg = true;
     this._srpgVy = Math.abs((this._y - this._realY) / 8);
   };
   
-  // SRPG機能（カメラ）としての移動先をセットする（イベントで指定）
+  // SRPG機能（カメラ）としての移動先をセットする（イベントで指定）：设置作为SRPG功能(相机)的移动目的地(由事件指定)
   Game_Player.prototype.setSrpgCameraEvent = function(event) {
     this.setSrpgCameraXy(event.x, event.y);
   };
@@ -1308,7 +1432,7 @@ Imported.TMSrpg = true;
     }
   };
 
-  // SRPGバトラーをセットアップ
+  // SRPGバトラーをセットアップ：设置SRPG指挥棒
   Game_Event.prototype.setupSrpgBattler = function(enemyId) {
     this._srpgActorId = null;
     this._srpgEnemyId = null;
@@ -1348,35 +1472,35 @@ Imported.TMSrpg = true;
     battler.setLetter(plural ? $gameTroop.letterTable()[this._letterIndex] : '');
   };
   
-  // イベントのSRPGバトラーを返す
+  // イベントのSRPGバトラーを返す：返回事件的SRPG指挥棒
   Game_Event.prototype.srpgBattler = function() {
     if (this.isSrpgActorUnit()) return $gameParty.allMembers()[this._srpgActorId];
     return this._srpgBattler;
   };
   
-  // イベントがSRPGユニットかどうかを返す
+  // イベントがSRPGユニットかどうかを返す：返回事件是否是SRPG单元
   Game_Event.prototype.isSrpgUnit = function(alive) {
     return this.isSrpgActorUnit(alive) || this.isSrpgEnemyUnit(alive);
   };
   
-  // イベントがSRPGアクターユニットかどうかを返す
+  // イベントがSRPGアクターユニットかどうかを返す：返回事件是否是SRPG动作单元
   Game_Event.prototype.isSrpgActorUnit = function(alive) {
     if (this._srpgActorId == null) return false;
     return alive == null || this.srpgBattler().isAlive() === alive;
   };
   
-  // イベントがSRPGエネミーユニットかどうかを返す
+  // イベントがSRPGエネミーユニットかどうかを返す：返回事件是否是SRPG单元
   Game_Event.prototype.isSrpgEnemyUnit = function(alive) {
     if (this._srpgEnemyId == null) return false;
     return alive == null || this.srpgBattler().isAlive() === alive;
   };
   
-  // イベントが対象ユニットと同じ勢力に属しているかどうかを返す
+  // イベントが対象ユニットと同じ勢力に属しているかどうかを返す：返回事件是否属于与对象单元相同的势力。
   Game_Event.prototype.isFriend = function(unit) {
     return this.srpgBattler().isActor() === unit.srpgBattler().isActor();
   };
 
-  // イベントが自動行動かどうかを返す
+  // イベントが自動行動かどうかを返す：返回事件是否是自动行为
   Game_Event.prototype.isSrpgAutoBattle = function() {
     var battler = this.srpgBattler();
     if (this.isSrpgActorUnit()) {
@@ -1385,58 +1509,58 @@ Imported.TMSrpg = true;
     return battler.enemy().actions.length > 0;
   };
 
-  // イベントが操作入力可能かどうかを返す
+  // イベントが操作入力可能かどうかを返す：返回事件是否可以输入操作
   Game_Event.prototype.isSrpgInputtable = function() {
     return this.isSrpgActorUnit(true) && !this.isSrpgAutoBattle();
   };
   
-  // イベントが水上移動可能状態かどうかを返す
+  // イベントが水上移動可能状態かどうかを返す：返回事件是否处于水上可移动状态
   Game_Event.prototype.isShip = function() {
     return this.srpgBattler().srpgFlag('shipMove');
   };
   
-  // イベントが浮遊移動状態かどうかを返す
+  // イベントが浮遊移動状態かどうかを返す：返回事件是否是浮置移动状态
   Game_Event.prototype.isFloat = function() {
     return this.srpgBattler().srpgFlag('floatMove');
   };
   
-  // イベントの移動力を返す
+  // イベントの移動力を返す：返回事件的移动能力
   Game_Event.prototype.mov = function() {
     return Math.max(this.srpgBattler().srpgParam('mov'), 0);
   };
   
-  // イベントの索敵距離を返す
+  // イベントの索敵距離を返す：返回事件的搜索距离
   Game_Event.prototype.search = function() {
     return this.srpgBattler().srpgParam('search');
   };
 
-  // イベントが裏切り者かどうかを返す
+  // イベントが裏切り者かどうかを返す：返回事件是否是叛徒
   Game_Event.prototype.isTraitor = function() {
     return this.event().meta.traitor;
   };
   
-  // イベントが移動可能かどうかを返す
+  // イベントが移動可能かどうかを返す：返回事件是否可移动
   Game_Event.prototype.canSrpgMove = function() {
     return !this._moved && this.mov() > 0;
   };
   
-  // イベントの移動を終了する
+  // イベントの移動を終了する：结束活动的移动
   Game_Event.prototype.endSrpgMove = function() {
     this._moved = true;
   };
   
-  // イベントが行動可能かどうかを返す
+  // イベントが行動可能かどうかを返す：返回事件是否可行动
   Game_Event.prototype.canSrpgAct = function() {
     return !this._acted && this.srpgBattler().canMove();
   };
   
-  // イベントの行動を終了する
+  // イベントの行動を終了する：结束事件的行动
   Game_Event.prototype.endSrpgAction = function() {
     this._acted = true;
-    this.clearLastPosition();     // 移動前の座標情報をクリア
+    this.clearLastPosition();     // 移動前の座標情報をクリア：清除移动前的坐标信息
   };
   
-  // イベントのターン開始処理
+  // イベントのターン開始処理：事件的回合开始处理
   Game_Event.prototype.onSrpgTurnStart = function() {
     var battler = this.srpgBattler();
     battler.onTurnEnd();
@@ -1445,14 +1569,14 @@ Imported.TMSrpg = true;
     this._acted = false;
   };
   
-  // イベントの待機処理
+  // イベントの待機処理：事件的等待处理
   Game_Event.prototype.executeSrpgWaiting = function(x, y) {
     this.turnTowardXy(x, y);
     this._moved = true;     // 移動済みフラグを立てる
     this.endSrpgAction();   // 行動を終了する
   };
 
-  // イベントの索敵距離内に敵対ユニットがいるかどうかを返す
+  // イベントの索敵距離内に敵対ユニットがいるかどうかを返す：返回事件的索敌距离内是否有敌对单位
   Game_Event.prototype.checkSearch = function() {
     var search = this.search();
     if (search === 0 || this.srpgBattler().isConfused()) return true;
@@ -1464,7 +1588,7 @@ Imported.TMSrpg = true;
     });
   };
   
-  // 文字列から移動ルートを生成して移動する
+  // 文字列から移動ルートを生成して移動する：从字符串中生成移动路径。
   Game_Event.prototype.moveRouteText = function(routeText) {
     var gc = Game_Character;
     var moveRoute = {list:[], repeat:false, skippable:false, wait:true};
@@ -1479,28 +1603,28 @@ Imported.TMSrpg = true;
     moveRoute.list.push({code:gc.ROUTE_END, parameters:[]});
     this.forceMoveRoute(moveRoute);
     this._lastPosition = {x:this._x, y:this._y, direction:this.direction()};
-    this._moved = true;     // 移動済みフラグを立てる
+    this._moved = true;     // 移動済みフラグを立てる：竖立移动标志
   };
   
-  // 移動キャンセル
+  // 移動キャンセル：取消移动
   Game_Event.prototype.backToLastPosition = function() {
     this.locate(this._lastPosition.x, this._lastPosition.y);
     this.setDirection(this._lastPosition.direction);
-    this.clearLastPosition();     // 移動前の座標情報をクリア
+    this.clearLastPosition();     // 移動前の座標情報をクリア：清除移动前的坐标信息
     this._moved = false;
   };
   
-  // 移動前の座標情報をクリア
+  // 移動前の座標情報をクリア：清除移动前的坐标信息
   Game_Event.prototype.clearLastPosition = function() {
     this._lastPosition = null;
   };
   
-  // 移動前の座標情報が有効かどうかを返す
+  // 移動前の座標情報が有効かどうかを返す：返回移动前的坐标信息是否有效
   Game_Event.prototype.isLastPositionValid = function() {
     return !!this._lastPosition;
   };
   
-  // 指定した行動を評価して最も効果の高い座標を返す
+  // 指定した行動を評価して最も効果の高い座標を返す：评估指定的行动，返回最有效的坐标
   Game_Event.prototype.srpgEvaluateAction = function(action) {
     var skill = action.item();
     if (!skill) return null;
@@ -1531,13 +1655,13 @@ Imported.TMSrpg = true;
     return result;
   };
   
-  // 行動のアニメーションを表示
+  // 行動のアニメーションを表示：显示行动的动画
   Game_Event.prototype.showSrpgActionAnimation = function() {
     var subject = this.srpgBattler();
     var targets = $gameMap.srpgUnitsArea(null, true);
     var action = subject.currentAction();
     var item = action.item();
-    subject.useItem(item);      // コストの支払い
+    subject.useItem(item);      // コストの支払い：成本的支付
     var animationId = item.animationId;
     if (animationId < 0) {
       animationId = subject.attackAnimationId1();
@@ -1548,7 +1672,7 @@ Imported.TMSrpg = true;
     }
   };
   
-  // 行動の実行
+  // 行動の実行：行动的实行
   Game_Event.prototype.executeSrpgAction = function() {
     $gameTemp.setSrpgNextUnitId(-this.eventId());
     var subject = this.srpgBattler();
@@ -1566,32 +1690,32 @@ Imported.TMSrpg = true;
     return targets.length * damagePopupInterval;
   };
 
-  // 戦闘不能チェック
+  // 戦闘不能チェック：无法战斗检查
   Game_Event.prototype.srpgCheckDead = function() {
     if (this.srpgBattler().isDead()) {
       $gameTemp.setSrpgDeadUnitId(this._eventId);
     }
   };
   
-  // ダメージポップアップの予約
+  // ダメージポップアップの予約：预约损伤弹出
   Game_Event.prototype.reserveDamagePopup = function(delay) {
     this._damagePopupDelay = delay;
     this._damagePopupResult = JSON.parse(JSON.stringify(this.srpgBattler().result()));
   };
   
-  // ダメージポップアップが予約されているかを返す
+  // ダメージポップアップが予約されているかを返す：返回是否预约了损伤弹出
   Game_Event.prototype.isDamagePopupReserved = function() {
     return this._damagePopupDelay !== undefined;
   };
 
-  // フレーム更新
+  // フレーム更新：帧更新
   var _Game_Event_update = Game_Event.prototype.update;
   Game_Event.prototype.update = function() {
     _Game_Event_update.call(this);
     this.updateDamagePopup();
   };
   
-  // ダメージポップアップの更新
+  // ダメージポップアップの更新：更新伤害弹出
   Game_Event.prototype.updateDamagePopup = function() {
     if (this.isDamagePopupReserved()) {
       this._damagePopupDelay--;
@@ -1719,21 +1843,21 @@ Imported.TMSrpg = true;
   // Sprite_Character
   //
 
-  // メンバ変数の初期化
+  // メンバ変数の初期化：初始化成员变量
   var _Sprite_Character_initMembers = Sprite_Character.prototype.initMembers;
   Sprite_Character.prototype.initMembers = function() {
     _Sprite_Character_initMembers.call(this);
     this._damages = [];
   };
 
-  // フレーム更新
+  // フレーム更新：帧更新
   var _Sprite_Character_update = Sprite_Character.prototype.update;
   Sprite_Character.prototype.update = function() {
     _Sprite_Character_update.call(this);
     this.updateDamagePopup();
   };
 
-  // ダメージポップアップの更新
+  // ダメージポップアップの更新：更新伤害弹出
   Sprite_Character.prototype.updateDamagePopup = function() {
     if (this._character.isSrpgUnit()) {
       this.setupDamagePopup();
@@ -1752,7 +1876,7 @@ Imported.TMSrpg = true;
     }
   };
 
-  // ダメージポップアップのセット
+  // ダメージポップアップのセット：伤害弹出集
   Sprite_Character.prototype.setupDamagePopup = function() {
     var battler = this._character.srpgBattler();
     if (battler.isDamagePopupRequested()) {
@@ -2005,7 +2129,7 @@ Imported.TMSrpg = true;
     this.updateArrowSprite();
   };
   
-  // 矢印スプライトの更新
+  // 矢印スプライトの更新：更新箭头样条
   Window_SrpgStatus.prototype.updateArrowSprite = function() {
     if (this._arrowSprite.visible) {
       var n = Graphics.frameCount % 30;
@@ -2071,7 +2195,7 @@ Imported.TMSrpg = true;
     this.drawText(damageText, faceWidth, lineHeight * 1, w, 'center');
   };
   
-  // 結果予測テキストを作成
+  // 結果予測テキストを作成：创建结果预测文本
   Window_SrpgStatus.prototype.makeDamageText = function(targetBattler, action) {
     if (action.isSkill() && action.item().id === checkSkillId) return '????(100%)';
     var result = '';
@@ -2093,7 +2217,7 @@ Imported.TMSrpg = true;
     return result;
   };
   
-  // 結果予測テキストを作成
+  // 結果予測テキストを作成：制作结果预测文本
   Window_SrpgStatus.prototype.makeEffectText = function(targetBattler, effect, hit) {
     if (!effect) return '効果なし';
     switch (effect.code) {
@@ -2105,10 +2229,10 @@ Imported.TMSrpg = true;
       return TextManager.mpA + (n >= 0 ? '+' : '') + n;
     case Game_Action.EFFECT_GAIN_TP:          // TP増加
       return TextManager.tpA + (effect.value1 >= 0 ? '+' : '') + effect.value1;
-    case Game_Action.EFFECT_ADD_STATE:        // ステート付加
+    case Game_Action.EFFECT_ADD_STATE:        // ステート付加：附加状态
       var stateId = effect.dataId;
       return $dataStates[stateId].name + '付加' + '(' + hit + '%)';
-    case Game_Action.EFFECT_REMOVE_STATE:     // ステート解除
+    case Game_Action.EFFECT_REMOVE_STATE:     // ステート解除：取消状态
       var stateId = effect.dataId;
       return $dataStates[stateId].name + '解除' + '(' + hit + '%)';
     case Game_Action.EFFECT_ADD_BUFF:         // 強化
@@ -2123,7 +2247,7 @@ Imported.TMSrpg = true;
     case Game_Action.EFFECT_REMOVE_DEBUFF:    // 弱体解除
       var buffId = effect.dataId;
       return TextManager.param(buffId) + '弱体解除' + '(' + hit + '%)';
-    case Game_Action.EFFECT_LEARN_SKILL:      // スキル習得
+    case Game_Action.EFFECT_LEARN_SKILL:      // スキル習得：技能学习
       var skill = $dataSkills[effect.dataId];
       return skill.name + '習得';
     default:
@@ -2351,11 +2475,11 @@ Imported.TMSrpg = true;
     var unit = this.item();
     if (unit) {
       $gameTemp.setSrpgLastUnitId(unit.eventId());
-      $gamePlayer.setSrpgCameraEvent(unit);   // カメラ移動
-      $gameMap.showMovableArea(unit);         // 移動可能範囲を表示する
+      $gamePlayer.setSrpgCameraEvent(unit);   // カメラ移動：移动相机
+      $gameMap.showMovableArea(unit);         // 移動可能範囲を表示する：显示可移动范围
       this._statusWindow.setSrpgUnit(unit);
     } else {
-      $gameMap.hideSrpgArea();                // 範囲表示を隠す
+      $gameMap.hideSrpgArea();                // 範囲表示を隠す：隐藏范围显示
       this._statusWindow.close();
     }
   };
@@ -2457,7 +2581,7 @@ Imported.TMSrpg = true;
     this.autoOpen();
   };
   
-  // SRPGコマンドウィンドウの復元
+  // SRPGコマンドウィンドウの復元：恢复SRPG命令窗口
   Scene_Map.prototype.autoOpen = function() {
     if ($gameTemp.isSrpgCommandReserved()) {
       var index = $gameTemp.reserveSrpgCommandIndex();
@@ -2521,21 +2645,21 @@ Imported.TMSrpg = true;
       } else if (!this.checkSrpgGameOver()) {
         if ($gameMap.isSrpgActorTurn()) {
           if (this._areaSelecterActive) {
-            this.updateAreaSelecter();      // 範囲選択の更新
+            this.updateAreaSelecter();      // 範囲選択の更新：范围选择的更新
           } else if (this._srpgTurnState) {
-            this.updateSrpgActorTurn();     // 味方ターンの更新
+            this.updateSrpgActorTurn();     // 味方ターンの更新：己方回合的更新
           } else if (!this._srpgCommandWindow.active && !this._srpgSkillWindow.active &&
                      !this._srpgUnitWindow.active) {
-            this.updateSrpgInput();         // SRPG入力の更新
+            this.updateSrpgInput();         // SRPG入力の更新：SRPG输入的更新
           }
         } else {
-          this.updateSrpgEnemyTurn();       // 敵ターンの更新
+          this.updateSrpgEnemyTurn();       // 敵ターンの更新：敌人回合的更新
         }
       }
     }
   };
   
-  // SRPGウェイトの更新
+  // SRPGウェイトの更新：SRPG权重的更新
   Scene_Map.prototype.updateSrpgWait = function() {
     if (this._srpgWaitType === 'normal') {
       this._srpgWaitCount--;
@@ -2547,7 +2671,7 @@ Imported.TMSrpg = true;
     }
   };
 
-  // 戦闘不能ユニットの処理
+  // 戦闘不能ユニットの処理：无法战斗机体的处理
   Scene_Map.prototype.updateSrpgDeadUnit = function(id) {
     var event = $gameMap.event(id);
     event.srpgAutoStart('A');
@@ -2557,7 +2681,7 @@ Imported.TMSrpg = true;
     }
   };
 
-  // ゲームオーバー判定
+  // ゲームオーバー判定：判定比赛结束
   Scene_Map.prototype.checkSrpgGameOver = function() {
     if ($gameVariables.value(vnEnemyUnitNums) === 0) {
       $gameMap.srpgManagerEvent().srpgAutoStart('A');
@@ -2569,7 +2693,7 @@ Imported.TMSrpg = true;
     return false;
   };
   
-  // 範囲選択の更新
+  // 範囲選択の更新：范围选择的更新
   Scene_Map.prototype.updateAreaSelecter = function() {
     if (TouchInput.isTriggered()){
       var x = $gameMap.canvasToMapX(TouchInput.x);
@@ -2580,26 +2704,26 @@ Imported.TMSrpg = true;
     }
   };
   
-  // 味方ターンの更新
+  // 味方ターンの更新：己方回合的更新
   Scene_Map.prototype.updateSrpgActorTurn = function() {
     var event = this._srpgStatusWindow.user();
     switch (this._srpgTurnState) {
-    case 3:   // 行動結果の反映
+    case 3:   // 行動結果の反映：行动结果的反映
       $gameTemp.setSrpgTurnStart(false);
       event.executeSrpgAction();
       this._srpgTurnState = 4;
       break;
-    case 4:   // 行動後イベントの処理
+    case 4:   // 行動後イベントの処理：行动后事件的处理
       $gameMap.startSrpgManagerEvent();
       this._srpgTurnState = !event.canSrpgMove() ? 5 : 0;
       break;
-    case 5:   // 行動後の待機選択
+    case 5:   // 行動後の待機選択：行动后的等待选择
       this.srpgAutoWaiting(true);
       break;
-    case 12:  // 移動結果の反映
+    case 12:  // 移動結果の反映：移动结果的反映
       this.srpgAutoWaiting(!event.canSrpgAct());
       break;
-    case 32:  // ターン開始待ち
+    case 32:  // ターン開始待ち：等待转弯开始
       $gameMap.onSrpgTurnStart();
       var events = $gameMap.srpgUnits(true).filter(function(event) {
         return event.isSrpgAutoBattle();
@@ -2619,7 +2743,7 @@ Imported.TMSrpg = true;
     this._srpgTurnState = 0;
   };
   
-  // SRPG入力の更新
+  // SRPG入力の更新：SRPG输入的更新
   Scene_Map.prototype.updateSrpgInput = function() {
     if (TouchInput.isRepeated()){
       var x = $gameMap.canvasToMapX(TouchInput.x);
@@ -2627,23 +2751,23 @@ Imported.TMSrpg = true;
       var event = $gameMap.srpgUnitXy(x, y, true);
       if (event && TouchInput.isTriggered()) {
         this._srpgTurnState = 0;
-        this.openSrpgCommand(event, true);  // ユニットコマンドを開く
-        SoundManager.playOk();              // 決定効果音を鳴らす
+        this.openSrpgCommand(event, true);  // ユニットコマンドを開く：打开单元命令
+        SoundManager.playOk();              // 決定効果音を鳴らす：发出决定效果音
       }
-      $gamePlayer.setSrpgCameraXy(x, y);    // カメラ移動
+      $gamePlayer.setSrpgCameraXy(x, y);    // カメラ移動：移动相机
     } else if (TouchInput.isCancelled()) {
       this.openSrpgCommand(null);
-      SoundManager.playOk();                // 決定効果音を鳴らす
+      SoundManager.playOk();                // 決定効果音を鳴らす：发出决定效果音
     }
   };
   
   var _Scene_Map_isMenuEnabled = Scene_Map.prototype.isMenuEnabled;
   Scene_Map.prototype.isMenuEnabled = function() {
-    // SRPG機能が有効になっている間は通常のメニューを禁止する
+    // SRPG機能が有効になっている間は通常のメニューを禁止する：在SRPG功能有效期间禁止普通菜单
     return _Scene_Map_isMenuEnabled.call(this) && !$gameMap.isSrpg();
   };
 
-  // SRPGコマンドウィンドウを開く
+  // SRPGコマンドウィンドウを開く：打开SRPG命令窗口
   Scene_Map.prototype.openSrpgCommand = function(event, showArea) {
     this._srpgStatusWindow.setSrpgUnit(event);
     if (event) {
@@ -2658,21 +2782,21 @@ Imported.TMSrpg = true;
     this._srpgCommandWindow.select(0);
   };
 
-  // シンプル移動入力の準備
+  // シンプル移動入力の準備：简单移动输入的准备
   Scene_Map.prototype.setSimpleMoveInput = function(event) {
     if (simpleMoveInput && event.isSrpgInputtable() && event.canSrpgMove()) {
       this.setAreaHandler(this.okAreaMove, this.cancelAreaMove);
     }
   };
 
-  // SRPGヘルプウィンドウを開く
+  // SRPGヘルプウィンドウを開く：打开SRPG帮助窗口
   Scene_Map.prototype.openSrpgHelp = function(text, lines) {
     this._helpWindow.setText(text);
     this._helpWindow.move(0, 0, Graphics.boxWidth, this._helpWindow.fittingHeight(lines));
     this._helpWindow.open();
   };
 
-  // SRPGスキルウィンドウを開く
+  // SRPGスキルウィンドウを開く：打开SRPG技能窗口
   Scene_Map.prototype.openSrpgSkill = function(category) {
     this.areaSelecterDeactivate(true);
     var event = this._srpgStatusWindow.user();
@@ -2683,38 +2807,38 @@ Imported.TMSrpg = true;
     this._srpgSkillWindow.activeOpen();
   };
   
-  // SRPGコマンド【移動】
+  // SRPGコマンド【移動】：SRPG命令【移动】
   Scene_Map.prototype.srpgCommandMove = function() {
     this.openSrpgHelp(moveHelp, 1);
     this._srpgCommandWindow.close();
     this.setAreaHandler(this.okAreaMove, this.cancelAreaMove);
   };
 
-  // SRPGコマンド【移動キャンセル】
+  // SRPGコマンド【移動キャンセル】：SRPG命令【移动取消】
   Scene_Map.prototype.srpgCommandMoveCancel = function() {
     var event = this._srpgStatusWindow.user();
-    event.backToLastPosition();               // 移動キャンセル実行
-    $gamePlayer.setSrpgCameraEvent(event);    // カメラ移動
-    SoundManager.playCancel();                // キャンセル効果音を鳴らす
+    event.backToLastPosition();               // 移動キャンセル実行：实行移动取消
+    $gamePlayer.setSrpgCameraEvent(event);    // カメラ移動：移动相机
+    SoundManager.playCancel();                // キャンセル効果音を鳴らす：发出取消效果音
     this.cancelSrpgCommand();
   };
 
-  // SRPGコマンド【行動】
+  // SRPGコマンド【行動】：SRPG命令【行动】
   Scene_Map.prototype.srpgCommandAction = function() {
     this.openSrpgSkill('skill');
   };
 
-  // SRPGコマンド【アイテム】
+  // SRPGコマンド【アイテム】：SRPG命令【道具】
   Scene_Map.prototype.srpgCommandItem = function() {
     this.openSrpgSkill('item');
   };
   
-  // SRPGコマンド【装備変更】
+  // SRPGコマンド【装備変更】：SRPG命令【装备变更】
   Scene_Map.prototype.srpgCommandEquip = function() {
     this.changeSceneCommand(Scene_Equip);
   };
   
-  // SRPGコマンド【待機】
+  // SRPGコマンド【待機】：SRPG命令【待机】
   Scene_Map.prototype.srpgCommandWaiting = function() {
     var event = this._srpgStatusWindow.user();
     $gameMap.showWaitingArea(event);
@@ -2723,12 +2847,12 @@ Imported.TMSrpg = true;
     this.setAreaHandler(this.okAreaWaiting, this.cancelAreaWaiting);
   };
   
-  // SRPGコマンド【ステータス】
+  // SRPGコマンド【ステータス】：SRPG命令【状态】
   Scene_Map.prototype.srpgCommandStatus = function() {
     this.changeSceneCommand(Scene_Status);
   };
   
-  // SRPGコマンド【ターン終了】
+  // SRPGコマンド【ターン終了】：SRPG命令【回合结束】
   Scene_Map.prototype.srpgCommandTurnEnd = function() {
     this.openSrpgHelp(turnEndHelp, 1);
     this._srpgCommandWindow.setHandler('yesCommand', this.srpgCommandTurnEndYes.bind(this));
@@ -2736,7 +2860,7 @@ Imported.TMSrpg = true;
     this._srpgCommandWindow.refreshYesNo(this._helpWindow.height);
   };
   
-  // SRPGコマンド【ユニットリスト】
+  // SRPGコマンド【ユニットリスト】：SRPG命令【单元列表】
   Scene_Map.prototype.srpgCommandUnitList = function() {
     this._srpgCommandWindow.close();
     this._srpgUnitWindow.refresh();
@@ -2745,54 +2869,54 @@ Imported.TMSrpg = true;
     this._srpgUnitWindow.activeOpen();
   };
   
-  // SRPGコマンド【マップ情報】
+  // SRPGコマンド【マップ情報】：SRPG命令【地图信息】
   Scene_Map.prototype.srpgCommandInfo = function() {
     this.changeSceneCommand(Scene_SrpgInfo);
   };
   
-  // SRPGコマンド【オプション】
+  // SRPGコマンド【オプション】：SRPG命令【选项】
   Scene_Map.prototype.srpgCommandOptions = function() {
     this.changeSceneCommand(Scene_Options);
   };
 
-  // SRPGコマンド【セーブ】
+  // SRPGコマンド【セーブ】：SRPG命令【保存】
   Scene_Map.prototype.srpgCommandSave = function() {
     this.changeSceneCommand(Scene_Save);
   };
 
-  // SRPGコマンド【ロード】
+  // SRPGコマンド【ロード】：SRPG命令【加载】
   Scene_Map.prototype.srpgCommandLoad = function() {
     this.changeSceneCommand(Scene_Load);
   };
 
-  // SRPGコマンド【ゲーム終了】
+  // SRPGコマンド【ゲーム終了】：SRPG命令【游戏结束】
   Scene_Map.prototype.srpgCommandGameEnd = function() {
     this.changeSceneCommand(Scene_GameEnd);
   };
 
-  // SRPGコマンド【行動：はい】
+  // SRPGコマンド【行動：はい】：SRPG命令【行动:是】
   Scene_Map.prototype.srpgCommandActionYes = function() {
     var event = this._srpgStatusWindow.user();
-    this.showSrpgActionAnimation(event);    // 行動アニメーションの表示
+    this.showSrpgActionAnimation(event);    // 行動アニメーションの表示：行动动画的显示
     this._helpWindow.close();
     this._srpgCommandWindow.close();
     this._srpgTurnState = 3;
   };
   
-  // SRPGコマンド【行動：いいえ】
+  // SRPGコマンド【行動：いいえ】：SRPG命令【行动:否】
   Scene_Map.prototype.srpgCommandActionNo = function() {
     var event = this._srpgStatusWindow.user();
     var skill = this._srpgSkillWindow.item();
     this.openSrpgHelp(actionRangeHelp, 1);
     this.setAreaHandler(this.okAreaAction, this.cancelAreaAction);
     $gameMap.showRangeArea(event.x, event.y, skill);
-    event.setDirection(this._lastUnitDirection);    // 向きを元に戻す
-    $gamePlayer.setSrpgCameraEvent(event);          // カメラ移動
+    event.setDirection(this._lastUnitDirection);    // 向きを元に戻す：恢复方向
+    $gamePlayer.setSrpgCameraEvent(event);          // カメラ移動：移动相机
     this._srpgCommandWindow.close();
     this._srpgStatusWindow.setSrpgUnit(event);
   };
   
-  // SRPGコマンド【ターン終了：はい】
+  // SRPGコマンド【ターン終了：はい】：SRPG命令【回合结束:是】
   Scene_Map.prototype.srpgCommandTurnEndYes = function() {
     this._helpWindow.close();
     this._srpgCommandWindow.close();
@@ -2800,21 +2924,21 @@ Imported.TMSrpg = true;
     this._srpgTurnState = 32;
   };
   
-  // SRPGコマンド【ターン終了：いいえ】
+  // SRPGコマンド【ターン終了：いいえ】：SRPG命令【回合结束:否】
   Scene_Map.prototype.srpgCommandTurnEndNo = function() {
     this._helpWindow.close();
     this._srpgCommandWindow.refreshMenu();
     this._srpgCommandWindow.selectSymbol('turnEnd');
   };
   
-  // SRPGコマンド【キャンセル】
+  // SRPGコマンド【キャンセル】：SRPG命令【取消】
   Scene_Map.prototype.cancelSrpgCommand = function() {
     this._srpgCommandWindow.close();
     this._srpgStatusWindow.close();
     this.areaSelecterDeactivate(true);
   };
   
-  // コマンドによるシーン遷移
+  // コマンドによるシーン遷移：基于命令的场景迁移
   Scene_Map.prototype.changeSceneCommand = function(nextScene) {
     var index = this._srpgCommandWindow.index();
     var event = this._srpgStatusWindow.user();
@@ -2824,7 +2948,7 @@ Imported.TMSrpg = true;
     SceneManager.push(nextScene);
   };
   
-  // SRPGスキルウィンドウ【決定】
+  // SRPGスキルウィンドウ【決定】：SRPG技能窗口【决定】
   Scene_Map.prototype.okSrpgSkill = function() {
     var event = this._srpgStatusWindow.user();
     var skill = this._srpgSkillWindow.item();
@@ -2834,7 +2958,7 @@ Imported.TMSrpg = true;
     $gameMap.showRangeArea(event.x, event.y, skill);
   };
   
-  // SRPGスキルウィンドウ【キャンセル】
+  // SRPGスキルウィンドウ【キャンセル】：SRPG技能窗口【取消】
   Scene_Map.prototype.cancelSrpgSkill = function() {
     var event = this._srpgStatusWindow.user();
     this._helpWindow.close();
@@ -2844,28 +2968,28 @@ Imported.TMSrpg = true;
     this.setSimpleMoveInput(event);
   };
   
-  // SRPGユニットウィンドウ【決定】
+  // SRPGユニットウィンドウ【決定】：SRPG单元窗口【决定】
   Scene_Map.prototype.okSrpgUnit = function() {
     var event = this._srpgUnitWindow.item();
-    this.openSrpgCommand(event, false);    // ユニットコマンドを開く
+    this.openSrpgCommand(event, false);    // ユニットコマンドを開く：打开单元命令
     this.setSimpleMoveInput(event);
     this._srpgUnitWindow.close();
   };
   
-  // SRPGユニットウィンドウ【キャンセル】
+  // SRPGユニットウィンドウ【キャンセル】：SRPG单元窗口【取消】
   Scene_Map.prototype.cancelSrpgUnit = function() {
-    $gameMap.hideSrpgArea();          // 範囲表示を隠す
+    $gameMap.hideSrpgArea();          // 範囲表示を隠す：隐藏范围显示
     this._srpgUnitWindow.close();
     this._srpgStatusWindow.setSrpgUnit(null);
     this._srpgCommandWindow.activeOpen();
   };
   
-  // 範囲選択の有効化
+  // 範囲選択の有効化：范围选择的有效化
   Scene_Map.prototype.areaSelecterActivate = function() {
     this._areaSelecterActive = true;
   };
   
-  // 範囲選択の無効化
+  // 範囲選択の無効化：范围选择的无效化
   Scene_Map.prototype.areaSelecterDeactivate = function(hide) {
     this._areaSelecterActive = false;
     this._areaOkHandler = null;
@@ -2882,18 +3006,18 @@ Imported.TMSrpg = true;
   Scene_Map.prototype.callAreaOkHandler = function(x, y) {
     if (this._areaOkHandler) {
       this._areaOkHandler(x, y);
-      SoundManager.playOk();        // 決定効果音を鳴らす
+      SoundManager.playOk();        // 決定効果音を鳴らす：发出决定效果音
     }
   };
   
   Scene_Map.prototype.callAreaCancelHandler = function() {
     if (this._areaCancelHandler) {
       this._areaCancelHandler();
-      SoundManager.playCancel();    // キャンセル効果音を鳴らす
+      SoundManager.playCancel();    // キャンセル効果音を鳴らす：发出取消效果音
     }
   };
   
-  // 範囲選択の決定【移動】
+  // 範囲選択の決定【移動】：范围选择的决定【移动】
   Scene_Map.prototype.okAreaMove = function(x, y) {
     var event = this._srpgStatusWindow.user();
     this.setSrpgMove(event, x, y);
@@ -2905,31 +3029,31 @@ Imported.TMSrpg = true;
 
   Scene_Map.prototype.setSrpgMove = function(event, x, y) {
     var routeText = $gameMap.srpgAreaXy(x, y);
-    event.moveRouteText(routeText);         // 移動を実行
-    $gamePlayer.setSrpgCameraXy(x, y);      // カメラ移動
-    this.setSrpgWait('route');              // 移動完了までウェイト
+    event.moveRouteText(routeText);         // 移動を実行：实行移动
+    $gamePlayer.setSrpgCameraXy(x, y);      // カメラ移動：移动相机
+    this.setSrpgWait('route');              // 移動完了までウェイト：等到移动完成
   };
   
-  // 範囲選択のキャンセル【移動】
+  // 範囲選択のキャンセル【移動】：取消范围选择[移动]
   Scene_Map.prototype.cancelAreaMove = function() {
     this._srpgCommandWindow.activeOpen();
     this._helpWindow.close();
     if (!simpleMoveInput) this.areaSelecterDeactivate(false);
   };
   
-  // 範囲選択の決定【待機】
+  // 範囲選択の決定【待機】：范围选择的决定【待机】
   Scene_Map.prototype.okAreaWaiting = function(x, y) {
     this._srpgStatusWindow.user().executeSrpgWaiting(x, y);
-    $gamePlayer.setSrpgCameraXy(x, y);      // カメラ移動
+    $gamePlayer.setSrpgCameraXy(x, y);      // カメラ移動：移动相机
     this._helpWindow.close();
     this._srpgStatusWindow.close();
     this.areaSelecterDeactivate(true);
     if (this.isAllActorSrpgWaiting()) {
-      this.srpgCommandTurnEnd();    // ターン終了へ移行
+      this.srpgCommandTurnEnd();    // ターン終了へ移行：过渡到回合结束
     }
   };
 
-  // アクター全員が移動と行動を終えているかを返す
+  // アクター全員が移動と行動を終えているかを返す：返回所有操作人员是否完成移动和行动
   Scene_Map.prototype.isAllActorSrpgWaiting = function() {
     return !$gameMap.srpgActorUnits(true).some(function(event) {
       return !event.isSrpgAutoBattle() &&
@@ -2937,7 +3061,7 @@ Imported.TMSrpg = true;
     });
   };
 
-  // 範囲選択のキャンセル【待機】
+  // 範囲選択のキャンセル【待機】：范围选择的取消【待机】
   Scene_Map.prototype.cancelAreaWaiting = function() {
     var event = this._srpgStatusWindow.user();
     this._srpgCommandWindow.activeOpen();
@@ -2947,7 +3071,7 @@ Imported.TMSrpg = true;
     this.setSimpleMoveInput(event);
   };
   
-  // 範囲選択の決定【行動】
+  // 範囲選択の決定【行動】：范围选择的取消【待机】
   Scene_Map.prototype.okAreaAction = function(x, y) {
     var event = this._srpgStatusWindow.user();
     var skill = this._srpgSkillWindow.item();
@@ -2957,34 +3081,34 @@ Imported.TMSrpg = true;
     this._srpgCommandWindow.setHandler('noCommand', this.srpgCommandActionNo.bind(this));
     this._srpgCommandWindow.refreshYesNo(this._helpWindow.height);
     this.areaSelecterDeactivate(false);
-    this._lastUnitDirection = event.direction();// 現在の向きを記憶
+    this._lastUnitDirection = event.direction();// 現在の向きを記憶：记住现在的方向
     this.setSrpgAction(event, skill, x, y);
   };
 
   Scene_Map.prototype.setSrpgAction = function(event, skill, x, y) {
     $gameMap.showEffectArea(x, y, skill);
-    event.turnTowardXy(x, y);                   // 実行先の座標を向く
-    $gamePlayer.setSrpgCameraXy(x, y);          // カメラ移動
+    event.turnTowardXy(x, y);                   // 実行先の座標を向く：指向执行对象的坐标
+    $gamePlayer.setSrpgCameraXy(x, y);          // カメラ移動：移动相机
     var events = $gameMap.sortEventsDistance($gameMap.srpgUnitsArea(null, true), x, y);
     this._srpgStatusWindow.setAction(skill, events[0]);
   };
   
-  // 範囲選択のキャンセル【行動】
+  // 範囲選択のキャンセル【行動】：取消范围选择【行动】
   Scene_Map.prototype.cancelAreaAction = function() {
     this.openSrpgHelp('', 2);
     this._srpgSkillWindow.activeOpen();
     this.areaSelecterDeactivate(true);
   };
   
-  // 行動アニメーションの表示
+  // 行動アニメーションの表示：行动动画的显示
   Scene_Map.prototype.showSrpgActionAnimation = function(event) {
-    $gameMap.hideSrpgArea();          // 範囲表示を隠す
+    $gameMap.hideSrpgArea();          // 範囲表示を隠す：隐藏范围显示
     this._srpgStatusWindow.close();
-    event.showSrpgActionAnimation();  // 行動アニメーションの表示
-    this.setSrpgWait('animation');    // アニメーション完了までウェイト
+    event.showSrpgActionAnimation();  // 行動アニメーションの表示：行动动画的显示
+    this.setSrpgWait('animation');    // アニメーション完了までウェイト：到动画完成为止的重量
   };
   
-  // 次に行動するSRPGエネミーユニットをセット
+  // 次に行動するSRPGエネミーユニットをセット：设定下一个行动的SRPG战斗单元
   Scene_Map.prototype.setSrpgNextEnemyUnit = function() {
     if (this._actionEnemyUnits.length > 0) {
       var event = this._actionEnemyUnits.shift();
@@ -2992,36 +3116,36 @@ Imported.TMSrpg = true;
       this._srpgTurnState = 31;
       if (event.isSrpgAutoBattle() && !battler.isDead()) {
         $gameTemp.setSrpgNextUnitId(event.eventId());
-        $gamePlayer.setSrpgCameraEvent(event);      // カメラ移動
+        $gamePlayer.setSrpgCameraEvent(event);      // カメラ移動：移动相机
         this._srpgStatusWindow.setSrpgUnit(event);
         if (event.checkSearch()) {
-          battler.srpgMakeActions();                // 行動を作成
+          battler.srpgMakeActions();                // 行動を作成：制定行动
           if (battler.numActions() > 0) this._srpgTurnState = 1;
         }
       }
     } else {
       $gameTemp.setSrpgNextUnitId(0);
       this._srpgStatusWindow.setSrpgUnit(null);
-      this._srpgTurnState = 32;                     // 敵ターン状態遷移
+      this._srpgTurnState = 32;                     // 敵ターン状態遷移：敌人转换状态
     }
   };
 
-  // 敵ターンの更新
+  // 敵ターンの更新：敌人回合的更新
   Scene_Map.prototype.updateSrpgEnemyTurn = function() {
     var event = this._srpgStatusWindow.user();
     switch (this._srpgTurnState) {
     case 1:   // 移動前行動（準備）
       this._srpgTurnState = this.updateSrpgEnemyActionReady(event) ? 2 : 11;
       break;
-    case 2:   // 移動前行動（アニメーション表示）
+    case 2:   // 移動前行動（アニメーション表示）：移动前行动(动画显示)
       this.showSrpgActionAnimation(event);
       this._srpgTurnState = 3;
       break;
-    case 3:   // 移動前行動（行動結果の反映）
+    case 3:   // 移動前行動（行動結果の反映）：移动前动作（反映动作结果）
       this.setSrpgWait('normal', event.executeSrpgAction() + srpgBasicWait);
       this._srpgTurnState = 4;
       break;
-    case 4:   // 移動前行動（行動後イベントの処理）
+    case 4:   // 移動前行動（行動後イベントの処理）：移动前行动(行动后事件的处理)
       $gameMap.startSrpgManagerEvent();
       this._srpgTurnState = 11;
       break;
@@ -3035,7 +3159,7 @@ Imported.TMSrpg = true;
     case 21:  // 移動後行動（準備）
       this._srpgTurnState = this.updateSrpgEnemyActionReady(event) ? 22 : 31;
       break;
-    case 22:  // 移動後行動（アニメーション表示）
+    case 22:  // 移動後行動（アニメーション表示）：移动后行动(动画显示)
       this.showSrpgActionAnimation(event);
       this._srpgTurnState = 23;
       break;
@@ -3043,28 +3167,28 @@ Imported.TMSrpg = true;
       this.setSrpgWait('normal', event.executeSrpgAction() + srpgBasicWait);
       this._srpgTurnState = 24;
       break;
-    case 24:  // 移動後行動（行動後イベントの処理）
+    case 24:  // 移動後行動（行動後イベントの処理）：移动后行动(行动后事件的处理)
       $gameMap.startSrpgManagerEvent();
       this._srpgTurnState = 31;
       break;
-    case 31:  // 次のユニットへ
+    case 31:  // 次のユニットへ：进入下一个单元
       this.setSrpgNextEnemyUnit();
       $gameTemp.setSrpgTurnStart(false);
       $gameMap.startSrpgManagerEvent();
       break;
-    case 32:  // ターン開始待ち
+    case 32:  // ターン開始待ち：等待转弯开始
       $gameMap.onSrpgTurnStart();
       this._srpgTurnState = 0;
       break;
     }
   };
   
-  // 敵の行動準備処理
+  // 敵の行動準備処理：敌人的行动准备处理
   Scene_Map.prototype.updateSrpgEnemyActionReady = function(event) {
-    if (!event.canSrpgAct()) return false;    // 行動不可なら終了
+    if (!event.canSrpgAct()) return false;    // 行動不可なら終了：不能行动就结束
     var action = event.srpgBattler().currentAction();
     var targetPos = event.srpgEvaluateAction(action);
-    if (targetPos) {    // 有効な実行先が見つかった
+    if (targetPos) {    // 有効な実行先が見つかった：找到了有效的实施方法
       this.setSrpgAction(event, action.item(), targetPos.x, targetPos.y);
       this.setSrpgWait('normal', srpgBasicWait);
       return true;
@@ -3072,26 +3196,26 @@ Imported.TMSrpg = true;
     return false;
   };
   
-  // 敵の移動準備処理
+  // 敵の移動準備処理：敌人的移动准备处理
   Scene_Map.prototype.updateSrpgEnemyMoveReady = function(event) {
     var action = event.srpgBattler().currentAction();
     var targets = $gameMap.srpgActionEffectiveUnits(event, action);
     targets = $gameMap.sortEventsDistance(targets, event.x, event.y);
-    if (!targets[0]) return false;  // 対象がいなければ終了
+    if (!targets[0]) return false;  // 対象がいなければ終了：没有对象就结束
     $gameMap.showMovableArea(event);
-    if ($gameMap.isSrpgAreaEmpty()) return false; // 移動できる座標がなければ終了
+    if ($gameMap.isSrpgAreaEmpty()) return false; // 移動できる座標がなければ終了：如果没有可移动的坐标，则结束。
     this._moveTarget = targets[0];
     this._srpgStatusWindow.setSrpgUnit(event);
     this.setSrpgWait('normal', srpgBasicWait);
     return true;
   };
 
-  // 敵の移動処理
+  // 敵の移動処理：敌人的移动处理
   Scene_Map.prototype.updateSrpgEnemyMove = function(event) {
     var target = this._moveTarget;
     var targetPos = $gameMap.posInsideAreaNearXy(target.x, target.y);
     this.setSrpgMove(event, targetPos.x, targetPos.y);
-    $gameMap.hideSrpgArea();        // 範囲表示を隠す
+    $gameMap.hideSrpgArea();        // 範囲表示を隠す：隐藏范围显示
   };
 
   //-----------------------------------------------------------------------------
