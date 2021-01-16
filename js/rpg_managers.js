@@ -856,6 +856,10 @@ ImageManager.loadTitle2 = function(filename, hue) {
     return this.loadBitmap('img/titles2/', filename, hue, true);
 };
 
+ImageManager.loadCustomization = function(filename, hue) {
+    return this.loadBitmap('img/customizations/', filename, hue, true);
+};
+
 ImageManager.loadBitmap = function(folder, filename, hue, smooth) {
     if (filename) {
         var path = folder + encodeURIComponent(filename) + '.png';
